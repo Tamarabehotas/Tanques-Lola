@@ -1,69 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        
-        <meta charset="UTF-8">
-        <meta name="viewport" content="widhtdevice-widht">
-        <title>Tanques LOLA</title>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    </head>    
-        
-    <body>
-        
-        <header>
-            <div class="cabecera">
-                <h1><img src="imagenes/logo gris.png" alt="Logo biotanques LOLA">
-                </h1>                    
-                <nav>
-                    <ul>
-                        <li><a href= "index.html">Inicio</a></li>
-                        <li><a href="html/productos.html">Productos</a></li>
-                        <li><a href="html/contacto.html">Contactos</a></li>
-                    </ul>
-                </nav>
+  <head>
+    <!-- metadatos -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Tamara Behotas">
+    <meta name="description" content="Página web de tanques y biodigestores LOLA">
+    <meta name="keywords" content="tanques, biodigestores, sustentable">
+    
+    
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <!-- iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+    <!-- estilo personal -->
+    <link rel='stylesheet' href="css/style.css">
+    
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    
+    <!-- titulo -->
+    <title>Tanques y Biodigestores LOLA</title>
+    <!-- icono -->
+    <link rel="icon" href="imagenes/logo tio.jpg">
+  
+  </head>
+  <body>
+    <header>
+      <div class="seccionGris">
+        <nav class="navbar navbar-expand-md">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+              <a class="navbar-brand" href="#"><img src="imagenes/logo gris.png" alt="Logo de la página web" class="logo"></a>
+              <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i>Sobre nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="html/productos.html"><i class="bi bi-minecart"></i>Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="html/contacto.html"><i class="bi bi-person"></i>Contacto</a>
+                </li>
+              </ul>
             </div>
-        </header>
-
-        <main>
-
-            <img class= banner src="">
-            
-            <section class="principal">
-                        
-                <h2 class="titulo-principal">Sobre nosotros</h2>
-                
-                <p id="descripcion"></p>
-
-                <p></p>
-                    
-            </section>
-                    
-            <!-- <section class="diferenciales">
-                        
-                <h3 class="titulo-principal">Diferenciales</h3>
-                        
-                <div class="contenido-diferenciales">
-                    <ul class="lista-diferenciales">
-                        <li class="items">Atención personalizada a los clientes</li>
-                        <li class="items">Espacio diferenciado</li>
-                        <li class="items">Localización</li>
-                        <li class="items">Profesionales calificados</li>
-                        <li class="items">Puntualidad</li>
-                        <li class="items">Limpieza</li>
-                    </ul><img class="imagendiferencial" src="diferenciales.jpg" >
-                </div>
-                        
-            </section>
-                  -->   
-        </main>
-        <footer>
-            <img src="imagenes/logo tio.jpg" alt="Logo de biotanques LOLA en gris">
-            <p class="copyright">&copy Copyright Biotanques LOLA - 2022</p>
-            <p>Mail: biotanqueslola@gmail.com</p>
-            <p>Télefono: </p>
-        </footer>
-    </body>
-
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- sobre nosotros carrusel-->
+      <section>
+        <div class="sobreNosotros">
+          <div id="carouselExampleSlidesOnly" class="carousel slide carrusel" data-bs-ride="carousel">
+            <div class="carousel-inner carrusel">
+              <div class="carousel-item active">
+                <h3 id="tituloNosotros">Tanques y Biodigestores LOLA</h3>
+                <img src="./imagenes/tanques3sinFondo.png" class="d-block w-100" alt="imagen de 3 tanques sin fondo">  
+              </div>
+              <div class="carousel-item">
+                <p id="textoNosotros">En el año 2019 iniciamos nuestro emprendimiento, comenzamos solo con una máquina, con muchas ganas de crecer y brindar a nuestros clientes un producto de primera calidad.
+                <img src="./imagenes/maquinaOperadores.jpeg" class="d-block w-100" alt="maquina donde se realizan los tanques, con 2 operadores.">
+              </div>
+            </div>
+          </div> 
+          <a href="https://www.freepik.com/free-vector/fresh-clean-water-wave-with-bubbles-drops_7588583.htm#query=agua&position=10&from_view=search&track=sph" class="derechosImagen" target="_blank" rel="noopener noreferer">Imagen by upklyak en Freepik</a>
+        </div>
+      </section>
+      <section>
+        
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <footer class="seccionGris">
+      <img src="imagenes/logo tio.jpg" alt="Logo de biotanques LOLA en gris" class="logo">
+      <p class="copyright"> &copy Copyright Biotanques LOLA - 2022</p>
+      <p></p>
+      <p></p>
+    </footer>
+  </body>
 </html>
