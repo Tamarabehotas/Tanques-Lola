@@ -49,26 +49,36 @@ li i {
 
 /* home */
 .sobreNosotros{
-    height: 500px;
+    height: 400px;
     background-image: url('../imagenes/1302.jpg');
-    background-size: cover;
-    background-position:bottom;
+    background-size:cover;
+    background-position: center;
     display: flex;
     flex-direction: column; 
     align-items: center;
-    justify-content: space-around;
 }
 
-
 #tituloNosotros{
-    font-size: 2.3rem;
+    font-size: 3rem;
     text-shadow: 3px 3px #49a6db;
-    font-weight: bold;
     text-align: center;
+    font-family: 'Titan One', cursive;
+}
+
+.maquina{
+    justify-content:space-around;
+    align-items: center;
+}
+
+.imagenOperador{
+    padding: 5px;
+    max-width: 500px;
+    border-radius: 15%;
 }
 
 #textoNosotros{
-    font-size: 1.2rem;
+    padding: 5px;
+    font-size: 1.5rem;
     text-shadow:1px 1px #49a6db;
     text-align: center;
 }
@@ -84,13 +94,22 @@ li i {
 }
 
 .carrusel{
-    width: 400px;
-    max-height: 450px;
+    width: 600px;
+    max-height: 600px;
+    display: flex;
+    flex-direction: row;
 }
 
 .w-100{
     border-radius: 30%;
 }
+
+/* Descripcion */
+.informacion{
+    background-color: #49a6db;
+    min-height: 400px;
+}
+
 
 /* productos */
 
@@ -112,9 +131,6 @@ li i {
     margin-bottom: 40px;
 }
 
-/* .contenedor-individual{
-   border: 2px solid #49a6db;
-   border-radius: 2%; */
 
 
 .overlay{
