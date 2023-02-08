@@ -58,6 +58,10 @@ li i {
     align-items: center;
 }
 
+.panoramica{
+    height: 250px;
+}
+
 #tituloNosotros{
     font-size: 3rem;
     text-shadow: 3px 3px #49a6db;
